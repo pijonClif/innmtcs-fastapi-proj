@@ -1,7 +1,7 @@
 # library API
-basic library system
-uses FastAPI
-thumbs up emo
+basic library system\
+uses FastAPI\
+thumbs up emoji
 
 ## what it does
 - lists all books
@@ -20,9 +20,10 @@ uvicorn main:app --reload
 open: http://127.0.0.1:8000/docs
 
 ## how to run
-data is in-memory. It resets on restart.\
-no auth.\
-no database.
+data is in-memory\
+it resets on restart\
+no auth\
+no database
 
 ## endpoints 
 `/books`        - list\
