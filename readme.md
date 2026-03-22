@@ -16,7 +16,7 @@ thumbs up emo
 ```bash
 pip install fastapi uvicorn
 uvicorn main:app --reload
-
+```
 open: http://127.0.0.1:8000/docs
 
 ## how to run
@@ -25,12 +25,12 @@ no auth.
 no database.
 
 ## endpoints 
-/books - list
-/books/{id} - get one
-/borrow - borrow
-/return/{id} - return
-/books/filter - filter
-/books/search - search
-/books/sort - sort
-/books/page - paginate
-/queue - queue
+`/books` - list
+`/books/{id}` - get one
+`/borrow` - borrow
+`/return/{id}` - return
+`/books/filter` - filter
+`/books/search` - search
+`/books/sort` - sort
+`/books/page` - paginate
+`/queue` - queue
